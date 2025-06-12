@@ -45,6 +45,9 @@ Coming soon...
 
 # Resume
 
+body {
+  background-color: #6666ff /* A light grey color */
+}
 
 
 
