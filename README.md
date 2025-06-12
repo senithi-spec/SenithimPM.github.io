@@ -1,3 +1,4 @@
+[View the HTML file](./index.html)
 # Senithi Mathangaweera 
 
 Passionate about building products that solve real problems and create meaningful impact.
