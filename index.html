@@ -1,162 +1,146 @@
-e<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 2rem;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senithi Mathangaweera - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+      color: #333;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
 
-        h1 {
-            color: #4CAF50;
-        }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+      border: 4px solid #555;
+    }
 
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        .center {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            
-        }
-        
-
-        .lower {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .left {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        
-       body {
-      background-color: #111;
-      color: #00d8f2;
-      font-family: Arial, sans-serif;
+    h1, h2 {
       text-align: center;
-      padding: 20px;
+      color: #2c3e50;
     }
 
-    h1 {
-      margin-bottom: 30px;
-      font-size: 2rem;
+    h2 {
+      margin-top: 40px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
     }
 
-    .skills-container {
+    p {
+      text-align: center;
+      margin: 10px 0 30px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .box-list {
       display: flex;
       flex-wrap: wrap;
+      gap: 10px;
       justify-content: center;
-      gap: 20px;
     }
 
-    .skill {
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 12px;
-      width: 160px;
-      height: 120px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 10px #00d8f2;
-      color: white;
+    .box {
+      background-color: #ecf0f1;
+      padding: 10px 15px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
     }
 
-    .skill i {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #00d8f2;
+    .projects ul {
+      list-style-type: disc;
+      padding-left: 20px;
     }
-    </style>
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1><center>Hello, I'm Senii!</center></h1>
-        <p>Breaking things with purpose. Building confidence through testing.</p>
-        <p>Welcome to my portfolio website. Stay tuned for more updates!</p>
-        <p>
-        <br><br><br>
-        <div class ="center">
-            <h2>About Me</h2>
-            <p>I'm passionate about building smart, user-focused solutions that make an impact. With a blend of product management and business analysis skills, I explore how ideas turn into products and how strategy meets execution.<br> Welcome to my corner of insights, ideas, and growth.</p>
-        <br><br><br>     
-        <div class="lower">
-            <h2>Projects & Case Studies</h2>
-            <p><center><i>Coming Soon....</i></center></p>
-        <br><br><br>
-        <div class="left">
-            <h2>Tools & Technical Skills</h2>
-            <p>GitHub</p>
-            <p>Jenkins</p>
-            <p>Trello</p>
-            <p>Jira</p>
-            <p>Database Design</p>
-            <p>HTML</p>
-            <p>CSS</p>
+  <div class="container">
+    <img src="f8cc7aad-707b-40bb-9235-0bd467be6a27.png" alt="Profile" class="profile-pic"/>
 
-        <br><br>
-            <h1>Technical Skills & Tools</h1>
+    <h1>Senithi Mathangaweera</h1>
+    <p>Passionate about building products that solve real problems and create meaningful impact.</p>
 
-  <div class="skills-container">
-    <div class="skill"><i class="fas fa-cogs"></i>Playwright</div>
-    <div class="skill"><i class="fab fa-js-square"></i>JavaScript</div>
-    <div class="skill"><i class="fas fa-network-wired"></i>Postman API</div>
-    <div class="skill"><i class="fas fa-vial"></i>Test Automation</div>
-    <div class="skill"><i class="fas fa-user-check"></i>Manual Testing</div>
-    <div class="skill"><i class="fas fa-project-diagram"></i>Agile</div>
-    <div class="skill"><i class="fas fa-database"></i>SQL</div>
-    <div class="skill"><i class="fas fa-stream"></i>SDLC</div>
-    <div class="skill"><i class="fas fa-database"></i>Database Design</div>
-    <div class="skill"><i class="fas fa-project-diagram"></i>UML</div>
-    <div class="skill"><i class="fab fa-php"></i>PHP</div>
-    <div class="skill"><i class="fab fa-html5"></i>HTML</div>
-    <div class="skill"><i class="fab fa-css3-alt"></i>CSS</div>
-    <div class="skill"><i class="fab fa-git-alt"></i>Git</div>
-    <div class="skill"><i class="fab fa-github"></i>GitHub</div>
-    <div class="skill"><i class="fas fa-shield-alt"></i>Information Security</div>
-  </div>
-
-</body>
-</html>
-        
-            🔗 <a href=" https://SenithimPM.github.io/" target="_blank">Visit my GitHub</a>
-        </p>
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m passionate about building smart, user-focused solutions that make an impact. With a blend of product management and business analysis skills, I explore how ideas turn into products and how strategy meets execution.
+        Welcome to my corner of insights, ideas, and growth.
+      </p>
     </div>
-            
-</body>
 
+    <div class="section">
+      <h2>Core Skills</h2>
+      <div class="box-list">
+        <div class="box">Requirements gathering & documentation</div>
+        <div class="box">Stakeholder management</div>
+        <div class="box">Agile/Scrum methodology</div>
+        <div class="box">User journey mapping / UX thinking</div>
+        <div class="box">Wireframing & prototyping</div>
+        <div class="box">Data analysis & visualization</div>
+        <div class="box">Product roadmap creation</div>
+        <div class="box">Market & competitor analysis</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills & Tech Stack</h2>
+      <div class="box-list">
+        <div class="box">GitHub</div>
+        <div class="box">Power BI</div>
+        <div class="box">Jira</div>
+        <div class="box">Trello</div>
+        <div class="box">Database Design</div>
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">PHP</div>
+        <div class="box">Jenkins</div>
+        <div class="box">Figma</div>
+        <div class="box">Postman</div>
+        <div class="box">Agile</div>
+      </div>
+    </div>
+
+    <div class="section projects">
+      <h2>Projects & Case Studies</h2>
+      <ul>
+        <li>Coming soon...</li>
+        <!-- Add new <li>Project Name - short description</li> here -->
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Resume</h2>
+      <p><em>Coming soon... (or embed a link here)</em></p>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Senithi Mathangaweera | Product Management Enthusiast
+    </div>
+  </div>
+</body>
 </html>
+
