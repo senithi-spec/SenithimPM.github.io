@@ -275,6 +275,25 @@ p, li, a, span, div {
   </div>
   <script>
   function toggleTheme() {
+  const body = document.body;
+  const btn = document.getElementById("themeToggleBtn");
+
+  // If currently dark, switch to light
+  if (body.classList.contains("dark-mode")) {
+    body.classList.remove("dark-mode");
+    body.classList.add("light-mode");
+    btn.style.background = "#333";
+    btn.style.color = "#fff";
+  } else {
+    body.classList.remove("light-mode");
+    body.classList.add("dark-mode");
+    btn.style.background = "#fff";
+    btn.style.color = "#000";
+  }
+}
+</script>
+  <script>
+  function toggleTheme() {
     document.body.classList.toggle('dark-mode');
     const btn = document.getElementById("themeToggleBtn");
     if (document.body.classList.contains("dark-mode")) {
