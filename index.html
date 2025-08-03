@@ -2,285 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <title>Senithi Mathangaweera - Portfolio</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f9fc;
-      color: #333;
-    }
-
-    .container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 40px 30px;
-  background: linear-gradient(to bottom right, #ffffff, #f1f4f9);
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  transition: background 0.3s ease;
-}
-
-
-    .profile-pic {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto 20px;
-      border: 4px solid #555;
-    }
-
-    h1, h2 {
-      text-align: center;
-      color: #2c3e50;
-    }
-
-    h2 {
-      margin-top: 40px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-
-    p {
-      text-align: center;
-      margin: 10px 0 30px;
-    }
-
-    .section {
-      margin-bottom: 40px;
-    }
-
-    .box-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-    }
-
-   .box {
-  background-color: #ecf0f1;
-  padding: 10px 15px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: all 0.3s ease;
-  cursor: default;
-}
-
-.box:hover {
-  background-color: #dce3eb;
-  transform: translateY(-4px);
-  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-
-    .projects ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    .footer {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 12px;
-      color: #777;
-    }
-    .dark-mode {
-  background-color: #1e1e1e;
-  color: #f0f0f0;
-}
-
-.dark-mode .box {
-  background-color: #333;
-  color: #f0f0f0;
-}
-
-.dark-mode h1, .dark-mode h2 {
-  color: #80bfff;
-}
-    
-
-    .box {
-  background-color: #ecf0f1;
-  padding: 10px 15px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-    h2.left-align {
-  text-align: left;
-}
-    .dark-mode .container {
-  background: linear-gradient(to bottom right, #1e1e1e, #2c2c2c);
-  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
-}
-
-  body {
-  background-color: #121212; /* Dark background */
-  color: #ffffff;            /* White font for everything */
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2 {
-  color: #4dd0e1;  /* Bright teal (customize as you like) */
-  margin-bottom: 10px;
-}
-
-/* Optional: Make other text also white (just to be safe) */
-p, li, a, span, div {
-  color: #ffffff;
-}
-
-/* Box styling (for skill sections) */
-.box {
-  background-color: #2c2c2c;
-  color: #ffffff;
-  padding: 10px 15px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: all 0.3s ease;
-}
-
-/* Hover effect */
-.box:hover {
-  background-color: #3b3b3b;
-  transform: translateY(-4px);
-  box-shadow: 2px 6px 12px rgba(255, 255, 255, 0.1);
-}
-
- 
-
-
-
-
-
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senithi Mathangaweera | BA Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <button onclick="toggleTheme()" id="themeToggleBtn" style="
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 8px 12px;
-  background: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-">
-    
-  Toggle Theme
-</button>
-
-  <div class="container">
-    <img src="f8cc7aad-707b-40bb-9235-0bd467be6a27.png" alt="Profile" class="profile-pic"/>
-
-    <h1>Senithi Mathangaweera</h1>
-    <p>Passionate about building products that solve real problems and create meaningful impact.</p>
-
-    <div class="section">
-      <h2>About Me</h2>
-      <p>
-        I’m passionate about building smart, user-focused solutions that make an impact. With a blend of product management and business analysis skills, I explore how ideas turn into products and how strategy meets execution.
-        Welcome to my corner of insights, ideas, and growth.
-      </p>
+  <header>
+    <div class="container">
+      <h1>Senithi Mathangaweera</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="section">
-      <h2>Core Skills</h2>
-      <div class="box-list">
-        <div class="box">Requirements gathering & documentation</div>
-        <div class="box">Stakeholder management</div>
-        <div class="box">Agile/Scrum methodology</div>
-        <div class="box">User journey mapping / UX thinking</div>
-        <div class="box">Wireframing & prototyping</div>
-        <div class="box">Data analysis & visualization</div>
-        <div class="box">Product roadmap creation</div>
-        <div class="box">Market & competitor analysis</div>
+  <section class="hero">
+    <div class="container">
+      <h2>Business Analyst | Problem Solver | Intern-ready</h2>
+      <p>Turning research and data into impactful business solutions.</p>
+      <a class="btn" href="Senithi_Resume.pdf" target="_blank">Download Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m an aspiring Business Analyst passionate about solving real-world problems using structured analysis, stakeholder insights, and business logic. I have hands-on experience with SDLC, cohort analysis, wireframing, and requirement gathering through academic and personal projects.</p>
+      <div class="skills">
+        <span>BA Tools: Figma, Excel, Power BI</span>
+        <span>Languages: SQL, Python Basics</span>
+        <span>Docs: SRS, Wireframes, Feasibility Reports</span>
       </div>
     </div>
+  </section>
 
- <div class="section">
-  <h2>Technical Skills & Tech Stack</h2>
-  <div class="box-list">
-    <div class="box"><i class="fab fa-github"></i> GitHub</div>
-    <div class="box"><i class="fas fa-chart-bar"></i> Power BI</div>
-    <div class="box"><i class="fab fa-jira"></i> Jira</div>
-    <div class="box"><i class="fas fa-columns"></i> Trello</div>
-    <div class="box"><i class="fas fa-database"></i> Database Design</div>
-    <div class="box"><i class="fab fa-html5"></i> HTML</div>
-    <div class="box"><i class="fab fa-css3-alt"></i> CSS</div>
-    <div class="box"><i class="fab fa-php"></i> PHP</div>
-    <div class="box"><i class="fas fa-cogs"></i> Jenkins</div>
-    <div class="box"><i class="fab fa-figma"></i> Figma</div>
-    <div class="box"><i class="fas fa-vial"></i> Postman</div>
-    <div class="box"><i class="fas fa-project-diagram"></i> Agile</div>
-  </div>
-</div>
-
-
-    <div class="section projects">
-      <h2>Projects & Case Studies</h2>
-      <br><br>
-        <center>Coming soon...</center>
-        <!-- Add new <li>Project Name - short description</li> here -->
-      
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>SkillUpConnect – Peer Learning Platform</h3>
+        <p>Designed a platform connecting students with mentors. Built user flows for video courses, 1:1 bookings, payment integration, and dashboards. Includes mentor onboarding with verification flow.</p>
+        <a href="#" target="_blank">View Case Study (PDF)</a>
+      </div>
+      <div class="project-card">
+        <h3>Smart Garbage Collection App</h3>
+        <p>Proposed a mobile app to report garbage overflow and schedule pickups with government or private collectors. Designed incentives, reporting dashboard, and a community leaderboard.</p>
+        <a href="#" target="_blank">View App Flow</a>
+      </div>
+      <div class="project-card">
+        <h3>School Consolidation for Sri Lanka</h3>
+        <p>Analyzed education inefficiency from schools with <10 students. Proposed consolidation model, shared teacher pool, and smart learning hubs. Designed feasibility matrix and stakeholder maps.</p>
+        <a href="#" target="_blank">Read Case Study</a>
+      </div>
     </div>
+  </section>
 
-    <div class="section">
-  <h2 class="left-align">Resume</h2>
-  <embed src="RESUME final.pdf" type="application/pdf" width="30%" height="30%" />
-  <p style="text-align: left; margin-top: 15px;">
-    <a href="RESUME final.pdf" download style="
-      padding: 10px 14px;
-      background: #34495e;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    ">
-      ⬇ Download Resume
-    </a>
-  </p>
-</div>
-
-
-    <div class="footer">
-      &copy; 2025 Senithi Mathangaweera | Product Management Enthusiast
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:senithi@example.com">senithi@example.com</a></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://github.com/SenithiSpec" target="_blank">GitHub</a>
+      </div>
     </div>
-  </div>
-  
-  <script>
-  function toggleTheme() {
-    document.body.classList.toggle('dark-mode');
-    const btn = document.getElementById("themeToggleBtn");
-    if (document.body.classList.contains("dark-mode")) {
-      btn.style.background = "#fff";
-      btn.style.color = "#000";
-    } else {
-      btn.style.background = "#333";
-      btn.style.color = "#fff";
-    }
-  }
-</script>
+  </section>
+
+  <footer>
+    <div class="container">&copy; 2025 Senithi Mathangaweera</div>
+  </footer>
 
 </body>
 </html>
+
+
 
