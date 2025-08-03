@@ -1,0 +1,110 @@
+/* Base styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Theme variables */
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --accent: #007acc;
+  --card-bg: #f2f2f2;
+}
+
+.dark-theme {
+  --bg: #121212;
+  --text: #f1f1f1;
+  --card-bg: #1e1e1e;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+header {
+  background: var(--card-bg);
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a, #theme-toggle {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: var(--card-bg);
+}
+
+.hero .btn {
+  background: var(--accent);
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* About */
+.about h2,
+.projects h2,
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills span {
+  display: inline-block;
+  margin: 0.3rem 0.5rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+/* Projects */
+.project-card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  color: var(--accent);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  background: var(--card-bg);
+  margin-top: 2rem;
+}
