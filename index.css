@@ -151,6 +151,7 @@ header nav a, #theme-toggle {
   gap: 1rem;
 }
 
+
 .contact-form input,
 .contact-form textarea {
   background: #333;
@@ -181,6 +182,65 @@ header nav a, #theme-toggle {
     grid-template-columns: 1fr;
   }
 }
+
+.contact-form input,
+.contact-form textarea {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-form button {
+  background: #ff416c;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #ff295a;
+}
+
+.download-cv {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #ff416c;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.download-cv:hover {
+  background: #ff295a;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff416c;
+}
+
 
 
 /* Footer */
